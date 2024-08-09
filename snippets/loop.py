@@ -6,10 +6,12 @@ of a number on the fly.
 
 def lambda_array():
     # initialize an empty array
-    lambda_methods = {}
+    lambda_methods = []
     # implement a for loop to count from 0 to 9
-    for i in 10:
+    range = (0, 9)
+    for i in range:
         # append the lambda function to the array defined above
-        lambdamethods.push(lambda x: x + i)
+
+        lambda_methods.append(lambda x: x + i)
 
     return lambda_methods
